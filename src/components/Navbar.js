@@ -43,7 +43,7 @@ class Navbar extends Component {
         return (
             <div>
                 <nav className={this.state.navColor}>
-                    <div className="container is-fluid">
+                    <div className="container">
                         <div className="navbar-brand">
                             <Link className="navbar-item" to="/">
                                 <img src={this.state.logo} alt="Logo"/>

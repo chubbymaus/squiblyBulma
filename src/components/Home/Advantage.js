@@ -48,9 +48,7 @@ const Advantage = () => (
                 <div className="columns features">
                     <div className="column is-half">
                         <div className="card has-background-white">
-                            <div className="card-image has-text-left">
-                                {/* <img src={EngineeringIcon} alt="security icon" /> */}
-                            </div>
+                           
                             <div className="card-content has-text-primary">
                                 <div className="title has-text-primary">
                                 <FontAwesomeIcon style={{fontSize: '2.5rem'}} icon={['far', 'code']} />
@@ -66,9 +64,7 @@ const Advantage = () => (
                     </div>
                     <div className="column is-half">
                         <div className="card has-background-white">
-                            <div className="card-image has-text-left">
-                                {/* <img src={FinanceIcon} alt="transparency icon" /> */}
-                            </div>
+                            
                             <div className="card-content has-text-primary">
                                 <div className="title has-text-primary">
                                 <FontAwesomeIcon style={{fontSize: '2.5rem'}} icon={['far', 'money-bill-wave']} />
@@ -87,9 +83,7 @@ const Advantage = () => (
                    <div className="columns"> 
                     <div className="column is-half">
                         <div className="card has-background-white">
-                            <div className="card-image has-text-left">
-                                {/* <img src={SalesIcon} alt="collab icon" /> */}
-                            </div>
+                            
                             <div className="card-content has-text-primary">
                                 <div className="title has-text-primary">
                                 <FontAwesomeIcon style={{fontSize: '2.5rem'}} icon={['far', 'handshake']} />
@@ -105,9 +99,7 @@ const Advantage = () => (
                     </div>
                     <div className="column is-half">
                         <div className="card has-background-white">
-                            <div className="card-image has-text-left">
-                                {/* <img src={MarketingIcon} alt="transactions icon" /> */}
-                            </div>
+                            
                             <div className="card-content has-text-primary">
                                 <div className="title has-text-primary">
                                 <FontAwesomeIcon style={{fontSize: '2.5rem'}} icon={['far', 'bullseye-arrow']} />
@@ -126,9 +118,7 @@ const Advantage = () => (
                    <div className="columns"> 
                     <div className="column is-half">
                         <div className="card has-background-white">
-                            <div className="card-image has-text-left">
-                                {/* <img src={ItIcon} alt="collab icon" /> */}
-                            </div>
+                            
                             <div className="card-content has-text-primary">
                                 <div className="title has-text-primary">
                                 <FontAwesomeIcon style={{fontSize: '2.5rem'}} icon={['far', 'shield']} />
@@ -144,9 +134,7 @@ const Advantage = () => (
                     </div>
                     <div className="column is-half">
                         <div className="card has-background-white">
-                            <div className="card-image has-text-left">
-                                {/* <img src={HrIcon} alt="transactions icon" /> */}
-                            </div>
+                           
                             <div className="card-content has-text-primary">
                                 <div className="title has-text-primary">
                                 <FontAwesomeIcon style={{fontSize: '2.5rem'}} icon={['far', 'briefcase']} />
