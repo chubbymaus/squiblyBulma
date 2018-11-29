@@ -69,8 +69,12 @@ class Navbar extends Component {
                         id="navMenu">
                             <div className="navbar-end">
 
-                                <Link to="/blog" className="navbar-item">Code & Design Blog</Link>
-                                <Link to="/starters" className="navbar-item">Starter Templates</Link>
+                                <Link to="/blog" className="navbar-item">
+                                    Investors
+                                </Link>
+                                <Link to="/starters" className="navbar-item">
+                                    Request Demo
+                                </Link>
                                 
                             </div>
                             <div className="navbar-end is-primary">
