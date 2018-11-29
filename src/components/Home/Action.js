@@ -1,43 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import styled from 'styled-components'
+
 import Fade from 'react-reveal/Fade';
 
-const ActionWrapper = styled.div`
-  padding-top: 4rem;
-  padding-bottom: 2.5rem;
 
-  .card {
-  box-shadow: none;
-}
-    hr{
-        
-        height: 5px;
-        color: #2a3443;
-        background: #2a3443;
-        border: none;
-        max-width: 75px;
-        margin:0;
-        margin-bottom: 15px;
-    }
-
-    .title{
-        
-        margin-bottom: 10px;
-    }
-    .card-content{
-        padding-left: 0px;
-    }
-
-  @media only screen and (max-width: 797px){
-    padding-left: 25px;
-    padding-right: 15px;
-  }
-`
 const Action = () => (
     <div>
         
-        <ActionWrapper className="has-background-info">
+        <div className="action-wrapper has-background-info">
             <div className="container">
                 <div className="columns features">
                     <Fade left>
@@ -92,7 +62,7 @@ const Action = () => (
                 
                 
             </div>
-        </ActionWrapper>
+        </div>
     </div>
 )
 

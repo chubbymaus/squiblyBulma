@@ -1,55 +1,14 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
+
 import {
     FontAwesomeIcon
 } from '@fortawesome/react-fontawesome'
 
-const AboutWrapper = styled.div`
-  padding-top: 4rem;
-  padding-bottom: 2.5rem;
-  padding-left:0px;
-  .card {
-  box-shadow: none;
-}
-    hr{
-        
-        height: 5px;
-        color: #31c56e;
-        background: #31c56e;
-        border: none;
-        max-width: 75px;
-        margin:0;
-        margin-bottom: 15px;
-    }
 
-    .title{
-        
-        margin-bottom: 10px;
-    }
-    .card-content{
-        padding-left: 0px;
-    }
-    .content ul {
-      list-style: disc outside;
-      padding-top: 0;
-      padding-bottom: 0;
-      padding-left: 2rem;
-
-}
-    ul li{
-        border-top: none;
-    }
-
-  @media only screen and (max-width: 797px){
-    padding-left: 25px;
-    padding-right: 15px;
-  }
-`
 const About = () => (
     <div id="about">
         
-        <AboutWrapper className="has-background-primary">
+        <div className="about-wrapper has-background-primary">
             <div className="container">
                 <div className="columns features">
                     <div className="column is-half">
@@ -146,7 +105,7 @@ const About = () => (
                 
                 </div>
             </div>
-        </AboutWrapper>
+        </div>
     </div>
 )
 

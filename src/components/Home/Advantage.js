@@ -1,47 +1,12 @@
 import React from 'react'
-import styled from 'styled-components'
 import {
     FontAwesomeIcon
 } from '@fortawesome/react-fontawesome'
 
-const AdvantageWrapper = styled.div`
-  padding-top: 4rem;
-  padding-bottom: 2.5rem;
-  padding-left:0px;
 
- .card {
-  box-shadow: none;
-}
-  img{
-      max-height: 48px;
-  }
-    hr{
-        
-        height: 5px;
-        color: #31c56e;
-        background: #31c56e;
-        border: none;
-        max-width: 75px;
-        margin:0;
-        margin-bottom: 15px;
-    }
-
-    .title{
-        
-        margin-bottom: 10px;
-    }
-    .card-content{
-        padding-left: 0px;
-    }
-
-  @media only screen and (max-width: 797px){
-    padding-left: 25px;
-    padding-right: 15px;
-  }
-`
 const Advantage = () => (
     <div id="about">
-        <AdvantageWrapper className="has-background-white">
+        <div className="advantage-wrapper has-background-white">
             <div className="container">
               <h1 className="title" id="advantageTitle">Allow Squibly to become your Competitive Advantage</h1>
                 <br />
@@ -151,7 +116,7 @@ const Advantage = () => (
                 
                 </div>
             </div>
-        </AdvantageWrapper>
+        </div>
     </div>
 )
 
