@@ -2,6 +2,7 @@ import React from 'react'
 // import Link from 'gatsby-link';
 import styled from 'styled-components';
 import HeroImage from '../../images/computers.png';
+
 const Button = styled.a.attrs({
     className: 'button',
 })`
@@ -25,18 +26,7 @@ const ButtonGroup = styled.div`
     }
 `;
 
-const HeroText = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-    .title{
-      font-size: 2.5rem;
-    }
-    .subtitle{
-      font-size: 1.75rem;
-    }
-`;
 
 const Jumbotron = () => (
 
@@ -44,7 +34,7 @@ const Jumbotron = () => (
         <div className="hero-body">
             <div className="container has-text-left">
                 <div className="columns">
-                    <HeroText className="column is-half">
+                    <div className="column is-half hero-text">
                         
                         <h1 className="title has-text-primary has-text-weight-bold">
                            Your Secrets On The Blockchain
@@ -56,7 +46,7 @@ const Jumbotron = () => (
                         <Button className="is-info shadowed is-medium" href="#about">Learn More</Button>
                         <Button className="is-success shadowed is-medium">View My Blog</Button>
                         </ButtonGroup>
-                    </HeroText>
+                    </div>
                     <div className="column is-half has-text-right" id="hero-image">
                         <img src={HeroImage} alt="Hero" />
                     </div>

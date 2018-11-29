@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import Fade from 'react-reveal/Fade';
+
 const ActionWrapper = styled.div`
   padding-top: 4rem;
   padding-bottom: 2.5rem;
