@@ -29,10 +29,7 @@ li {
   border-top: 1px solid rgba(0, 0, 0, .125);
   padding: 5px;
 }
-#about-section{
-      background-image: url("../images/subtle_dots.png");
-      background-repeat: repeat;
-}
+
 
 .tile article{
   min-height: 200px;
@@ -41,57 +38,12 @@ li {
 .tilecontent{
   display: none;
 }
-#infernotile{
-  background-image: url('../images/infernotile.png');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+
+#about-section {
+  background-image: url("../images/subtle_dots.png");
+  background-repeat: repeat;
 }
-#infernotile:hover{
-  background-image: none;
-  background-color: $white;
-  
-}
-#squiblytile{
-  background-image: url('../images/squiblytile.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-#squiblytile:hover{
-  background-image: none;
-  background-color: $white;
-}
-#blocworktile{
-  background-image: url('../images/blocworktile.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-#blocworktile:hover{
-  background-image: none;
-  background-color: $white;
-}
-#infernocamptile{
-  background-image: url('../images/infernocamptile.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-#infernocamptile:hover{
-  background-image: none;
-  background-color: $primary;
-}
-#kandantile{
-  background-image: url('../images/kandantile.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-#kandantile:hover{
-  background-image: none;
-  background-color: $primary;
-}
+
 .notification{
   padding: 1.5rem 1.25rem;
 }

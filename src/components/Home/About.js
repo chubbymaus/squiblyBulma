@@ -30,6 +30,16 @@ const AboutWrapper = styled.div`
     .card-content{
         padding-left: 0px;
     }
+    .content ul {
+      list-style: disc outside;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 2rem;
+
+}
+    ul li{
+        border-top: none;
+    }
 
   @media only screen and (max-width: 797px){
     padding-left: 25px;

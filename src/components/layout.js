@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import './styles.scss'
 import {
   library,
   
@@ -14,7 +15,6 @@ import {
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-import './styles.scss'
 library.add(far, fab)
 
 const Layout = ({ children }) => (
