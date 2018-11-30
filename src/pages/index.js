@@ -8,12 +8,16 @@ import Action from '../components/Home/Action'
 import About from '../components/Home/About';
 import Advantage from '../components/Home/Advantage';
 // import Portfolio from '../components/Home/Portfolio';
-
+if (typeof window !== 'undefined') {
+  // Make scroll behavior of internal links smooth
+  // eslint-disable-next-line global-require
+  require('smooth-scroll')('a[href*="#"]');
+}
 const IndexPage = () => (
   <Layout>
     <Jumbotron />
-    <Action />
     <About />
+    <Action />
     <Advantage />
     
   </Layout>

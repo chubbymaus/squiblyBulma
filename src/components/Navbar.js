@@ -67,21 +67,15 @@ class Navbar extends Component {
                           this.state.menuOpen ? `${this.state.mobile} is-active` : 'navbar-menu'
                         }
                         id="navMenu">
-                            <div className="navbar-end">
-
+                            
+                            <div className="navbar-end is-primary">
                                 <Link to="/blog" className="navbar-item">
                                     Investors
                                 </Link>
-                                <Link to="/starters" className="navbar-item">
-                                    Request Demo
-                                </Link>
-                                
-                            </div>
-                            <div className="navbar-end is-primary">
 
                                 <div className="navbar-item">
-                                    <Link to="/contact" className="button is-info is-outlined is-fullwidth">
-                                        Say Hello...
+                                    <Link to="/contact" className="button is-success is-fullwidth">
+                                        Request Demo
                                     </Link>
                                 </div>
                             </div>

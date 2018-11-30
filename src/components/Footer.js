@@ -22,18 +22,16 @@ const Footer = () => (
         <div className="logo"></div>
         <div className="columns has-text-white is-centered"> 
           <div className="column is-half">
-            <h1 className="title has-text-white ">Living, learning, &amp; leveling up one day at a time.</h1>
+            <h1 className="title has-text-white ">Securing workplace collaboration one user at a time!</h1>
           </div>
         </div>
         <div className="columns has-text-white is-centered"> 
           <div className="column is-half">
             <h3 style={{fontSize: '2rem'}}>
-            <a href="https://dribbble.com/court_garr">
-              <FontAwesomeIcon icon={['fab', 'dribbble']} />
-            </a>
+            
             <span>&nbsp;&nbsp;
               <a href="https://www.behance.net/court090c">
-              <FontAwesomeIcon icon={['fab', 'behance']} />
+              <FontAwesomeIcon icon={['fab', 'youtube']} />
               </a>
             </span>
             <span>&nbsp;&nbsp;
@@ -55,7 +53,7 @@ const Footer = () => (
         <br/>
           </div>
         </div>
-
+        <p className="has-text-white"> &copy; {new Date().getFullYear()} Squibly</p>
       </div>
     </FooterSection>
 

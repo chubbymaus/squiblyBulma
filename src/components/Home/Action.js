@@ -9,7 +9,7 @@ const Action = () => (
         
         <div className="action-wrapper has-background-info">
             <div className="container">
-                <div className="columns features">
+                <div className="columns">
                     <Fade left>
                     <div className="column is-half">
                         <h4 className="has-text-white title">
@@ -20,7 +20,7 @@ const Action = () => (
                     </Fade>
                     <Fade right>
                     <div className="column is-half">
-                        <h2 className="title has-text-primary">
+                        <h2 className="title has-text-white">
                             See how Squibly secures your business while increasing productivity.
                         </h2>
                         <form 
@@ -49,7 +49,7 @@ const Action = () => (
                         </div>
                         <div className="field">
                             <p className="control">
-                                <button className="button is-primary is-medium is-fullwidth" type="submit">
+                                <button className="button is-success is-medium is-fullwidth" type="submit">
                                 Submit
                                 </button>
                             </p>

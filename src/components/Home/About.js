@@ -6,10 +6,13 @@ import {
 
 
 const About = () => (
-    <div id="about">
+    <div id="about" className="is-fullheight">
         
         <div className="about-wrapper has-background-primary">
             <div className="container">
+            <h1 className="title has-text-white has-text-weight-bold">
+                           Squibly helps boost productivity while facilitating...
+                        </h1>
                 <div className="columns features">
                     <div className="column is-half">
                         <div className="card has-background-primary">
