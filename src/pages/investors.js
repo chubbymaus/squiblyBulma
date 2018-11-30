@@ -2,11 +2,11 @@ import React from 'react'
 // import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Jumbotron from '../components/Home/Jumbotron'
-import Action from '../components/Home/Action'
+import Jumbotron from '../components/Investor/Jumbotron'
+import Action from '../components/Investor/Action'
 
-import About from '../components/Home/About';
-import Advantage from '../components/Home/Advantage';
+
+import Advantage from '../components/Investor/Advantage';
 
 if (typeof window !== 'undefined') {
   // Make scroll behavior of internal links smooth
@@ -16,7 +16,7 @@ if (typeof window !== 'undefined') {
 const IndexPage = () => (
   <Layout>
     <Jumbotron />
-    <About />
+    
     <Action />
     <Advantage />
     

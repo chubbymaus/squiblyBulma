@@ -46,7 +46,7 @@ const Footer = () => (
             </span>
             <span>&nbsp;&nbsp;
              <a href="https://www.linkedin.com/in/court-garr/">
-              <FontAwesomeIcon icon={['fab', 'linkedin']} />
+              <FontAwesomeIcon icon={['fab', 'twitter']} />
               </a>
             </span>
             </h3>

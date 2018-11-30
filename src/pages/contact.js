@@ -39,7 +39,7 @@ const HeroText = styled.div `
 const ContactPage = () => (
   <Layout>
     <div id="contact-container">
-     <RequestWrapper className="container">
+     <RequestWrapper className="container is-fluid">
 
 
       <section className="hero is-fullheight">
