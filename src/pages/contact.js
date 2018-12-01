@@ -2,8 +2,7 @@ import React from 'react'
 // import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-// import Jumbotron from '../components/Home/Jumbotron'
-import Action from '../components/Home/Action'
+
 import styled from 'styled-components'
 
 const RequestWrapper = styled.div `
@@ -12,22 +11,7 @@ const RequestWrapper = styled.div `
   @media only screen and (max-width: 600px){
     padding: 15px !important;
 }
-`
-const Button = styled.a.attrs({
-  className: 'button',
-})
-`
-  width: 180px;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
-  margin-right: 1rem;
-  
-@media only screen and (max-width: 600px){
-    max-width: 100%;
-}
 `;
-
-
 
 const HeroText = styled.div `
   display: flex;

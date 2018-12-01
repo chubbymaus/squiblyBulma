@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import Fade from 'react-reveal/Fade';
 
@@ -12,7 +11,7 @@ const Action = () => (
                 <div className="columns">
                     <Fade left>
                     <div className="column is-half">
-                        <h4 className="has-text-white title">
+                        <h4 style={{fontSize: '1.75rem'}} className="has-text-white has-text-weight-light">
                         Squibly is a peer-to-peer collaboration hub built on a blockchain to make all your communications, 
                         file sharing, and file storing more transparent, safer, and faster.
                         </h4>
@@ -20,7 +19,7 @@ const Action = () => (
                     </Fade>
                     <Fade right>
                     <div className="column is-half">
-                        <h2 className="title has-text-white">
+                        <h2 style={{fontSize: '1.75rem'}} className="title has-text-white has-text-weight-light">
                             See how Squibly secures your business while increasing productivity.
                         </h2>
                         <form 
