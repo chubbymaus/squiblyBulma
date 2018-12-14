@@ -16,10 +16,8 @@ if (typeof window !== 'undefined') {
 const IndexPage = () => (
   <Layout>
     <Jumbotron />
-    
     <Action />
     <Advantage />
-    
   </Layout>
 )
 

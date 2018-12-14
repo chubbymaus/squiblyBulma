@@ -8,7 +8,9 @@ const Advantage = () => (
     <div id="about">
         <div className="advantage-wrapper has-background-white">
             <div className="container">
-              <h1 className="title" id="advantageTitle">Allow Squibly to become your Competitive Advantage</h1>
+              <h1 className="title" id="advantageTitle">
+                What we need funding for...
+              </h1>
                 <br />
                 <div className="columns features">
                     <div className="column is-half">

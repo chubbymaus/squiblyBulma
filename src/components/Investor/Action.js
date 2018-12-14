@@ -8,19 +8,12 @@ const Action = () => (
         
         <div className="action-wrapper has-background-info">
             <div className="container">
-                <div className="columns">
-                    <Fade left>
-                    <div className="column is-half">
-                        <h4 className="has-text-white title">
-                        Squibly is a peer-to-peer collaboration hub built on a blockchain to make all your communications, 
-                        file sharing, and file storing more transparent, safer, and faster.
-                        </h4>
-                    </div>
-                    </Fade>
+                <div className="columns ">
+                   
                     <Fade right>
-                    <div className="column is-half">
+                    <div className="column ">
                         <h2 className="title has-text-white">
-                            See how Squibly secures your business while increasing productivity.
+                            Request Investor Information
                         </h2>
                         <form 
                     name="callToAction" 
