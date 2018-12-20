@@ -29,9 +29,10 @@ const About = () => (
                                 <hr/>
                                 <div className="content">
                                     <p>End-to-end encryption on a peer-to-peer network,
-                                     and distributed file storage.</p>
+                                     and distributed file storage. Consolidate file storage and sharing with Squibly to save money while maintaining the highest levels of security.</p>
                                     <ul>
                                         <li>Distributed File Storage</li>
+                                        <li>Peer-to-Peer Network</li>
                                     </ul>
                                 </div>
                             </div>
@@ -75,7 +76,7 @@ const About = () => (
                                 </div>
                                 <hr/>
                                 <div className="content">
-                                    <p>Organized chat, file sharing, and app integration in one place.</p>
+                                    <p>Everything your team needs to collaborate in one secure place. Chat, share and store files with the security you need</p>
                                     <ul>
                                         <li>Chat/File Sharing</li>
                                         <li>App Integration</li>
@@ -100,6 +101,7 @@ const About = () => (
                                     <p>Reduce reliance on trusted intermediaries and lower transaction costs.</p>
                                     <ul>
                                         <li>Smart Contracts</li>
+                                        
                                     </ul>
                                 </div>
                             </div>

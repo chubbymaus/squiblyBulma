@@ -25,7 +25,7 @@ const Jumbotron = () => (
                     <div className="column is-half hero-text">
                         
                         <h1 className="title has-text-primary has-text-weight-bold">
-                           Your Secrets On The Blockchain
+                           Secure Collaboration with Ease
                         </h1>
                         <h2 className="has-text-weight-light subtitle has-text-primary">
                             Collaborate, store, and share faster, safer, and more transparently

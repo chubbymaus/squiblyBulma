@@ -24,7 +24,9 @@ const Advantage = () => (
                                 </div>
                                 <hr/>
                                 <div className="content">
-                                    <p>Write code faster without all the distractions of process. Don’t worry about leaks any longer.</p>
+                                    <p>In order to be the best you have to hire the best. We are looking for the best engineers,
+                                    product managers, marketers, and sales people in the business. With the right funding, we
+                                    believe we can do just that.</p>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +43,8 @@ const Advantage = () => (
                                 <hr/>
                                 <div className="content">
 
-                                    <p>Collaborate sensitive information with no risk. Store company financials where only authorized personnel can see it.</p>
+                                    <p>The sales process has become increasingly hands-on. From developing leads to closing deals,
+                                    we need the resources to grow our business one sale at a time.</p>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +62,9 @@ const Advantage = () => (
                                 </div>
                                 <hr/>
                                 <div className="content">
-                                    <p>Pay commissions immediately, and keep closing deals faster.</p>
+                                    <p>The office is no longer just a place with a desk and a computer. It is a place to create and do
+                                    your best work day-in and day-out. To attract and keep the best talent in the world, we need
+                                    top-of-the-line workspaces and tools.</p>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +80,8 @@ const Advantage = () => (
                                 </div>
                                 <hr/>
                                 <div className="content">
-                                    <p>Keep the big news to yourself until the world is ready.</p>
+                                    <p>We are just getting started, but we have big dreams We are always looking to grow through
+strategic partnerships, investors, and mentors. You know anybody?</p>
                                 </div>
                             </div>
                         </div>

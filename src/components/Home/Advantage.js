@@ -22,7 +22,7 @@ const Advantage = () => (
                                 </div>
                                 <hr/>
                                 <div className="content">
-                                    <p>Write code faster without all the distractions of process. Don’t worry about leaks any longer.</p>
+                                    <p>Never worry about leaks or losing your IP to internal or external threats. Write code faster without the distractions of process.</p>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ const Advantage = () => (
                                 <hr/>
                                 <div className="content">
 
-                                    <p>Collaborate sensitive information with no risk. Store company financials where only authorized personnel can see it.</p>
+                                    <p>Share sensitive information with no risk. Store company financials where only authorized personnel can see it.</p>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ const Advantage = () => (
                                 </div>
                                 <hr/>
                                 <div className="content">
-                                    <p>Pay commissions immediately, and keep closing deals faster.</p>
+                                    <p>Pay commissions immediately, and keep closing deals faster. Make transactions with clients easier and more secure by using the Squibly platform.</p>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ const Advantage = () => (
                                 </div>
                                 <hr/>
                                 <div className="content">
-                                    <p>Keep the big news to yourself until the world is ready.</p>
+                                    <p>Keep the big news to yourself until the world is ready. Collaborate across every department to complete projects faster. Share and store all assets in one place</p>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ const Advantage = () => (
                                 </div>
                                 <hr/>
                                 <div className="content">
-                                    <p>Know who is talking and what they are talking about. Know what is going on in your business always.</p>
+                                    <p>Know who is talking and what they are talking about. Know what is going on in your business always. Always know what is going on in your business. Use the Squibly Explorer to understand where all your assets are located.</p>
                                 </div>
                             </div>
                         </div>

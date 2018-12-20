@@ -12,8 +12,7 @@ const Action = () => (
                     <Fade left>
                     <div className="column is-half">
                         <h4 style={{fontSize: '1.75rem'}} className="has-text-white has-text-weight-light">
-                        Squibly is a peer-to-peer collaboration hub built on a blockchain to make all your communications, 
-                        file sharing, and file storing more transparent, safer, and faster.
+                        Squibly is a peer-to-peer collaboration hub built with security in mind. Make all your communications, file sharing, and file storing more transparent, safer, and faster.
                         </h4>
                     </div>
                     </Fade>
