@@ -7,7 +7,7 @@ import {
 
 const Explorer = () => (
     <div>
-        <div className="has-background-success">
+        <div className="has-background-success product-section">
             <div className="container">
                 <div className="columns">
                     <Fade left>

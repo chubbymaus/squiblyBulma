@@ -7,7 +7,7 @@ import {
 
 const Network = () => (
     <div>
-        <div className="has-background-primary">
+        <div className="has-background-primary product-section">
             <div className="container">
                 <div className="columns">
                     <Fade left>
