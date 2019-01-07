@@ -34,11 +34,7 @@ const Footer = () => (
               <FontAwesomeIcon icon={['fab', 'youtube']} />
               </a>
             </span>
-            <span>&nbsp;&nbsp;
-              <a href="https://www.github.com/chubbymaus">
-              <FontAwesomeIcon icon={['fab', 'github']} />
-              </a>
-            </span>
+            
             <span>&nbsp;&nbsp;
               <a href="https://angel.co/court-garr?public_profile=1">
               <FontAwesomeIcon icon={['fab', 'angellist']} />
@@ -46,7 +42,7 @@ const Footer = () => (
             </span>
             <span>&nbsp;&nbsp;
              <a href="https://www.linkedin.com/in/court-garr/">
-              <FontAwesomeIcon icon={['fab', 'twitter']} />
+              <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
               </a>
             </span>
             </h3>
