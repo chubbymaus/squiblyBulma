@@ -233,3 +233,17 @@ li {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+  @media only screen and (max-width: 1087px) {
+    .container{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 797px) {
+        .container {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+  }
