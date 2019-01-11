@@ -19,7 +19,7 @@ const ButtonGroup = styled.div`
 const Jumbotron = () => (
 
     <section className="hero has-background-primary is-fullheight is-bold" id="about-section">
-        <div className="hero-body">
+        <div className="hero-body" id="jumbotron">
             <div className="container has-text-left">
                 <div className="columns">
                     <div className="column is-half hero-text">
@@ -31,7 +31,7 @@ const Jumbotron = () => (
                             Collaborate, store, and share faster, safer, and more transparently
                         </h2>
                         <ButtonGroup>
-                        <div className="is-info jumbotron-button button shadowed is-medium" href="#about">Learn More</div>
+                        <a href="#about"><div className="is-info jumbotron-button button shadowed is-medium"> Learn More</div></a>
                         <Link to="/contact"><div className="is-success shadowed jumbotron-button button is-medium">Request a Demo</div></Link>
                         </ButtonGroup>
                     </div>

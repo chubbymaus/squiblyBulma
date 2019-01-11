@@ -11,7 +11,7 @@ const Crypto = () => (
             <div className="container">
                 <div className="columns">
                     <Fade left>
-                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}}>
+                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}} id="cryptography">
                         <h4 className="has-text-white has-text-weight-light title">
                         Cryptography
                         </h4>
@@ -19,7 +19,7 @@ const Crypto = () => (
                     </div>
                     </Fade>
                     <Fade right>
-                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}}>
+                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}} id="signatures">
                         <h4 className="has-text-white has-text-weight-light title">
                         Digital Signatures
                         </h4>

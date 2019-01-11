@@ -31,7 +31,7 @@ const Info = () => (
 
     <section className="hero has-background-primary is-fullheight is-bold" id="about-section">
         <div className="hero-body">
-            <div className="container has-text-left">
+            <div className="container has-text-left" id="interface">
                 <div className="columns">
                     <div className="column is-half hero-text">
                         

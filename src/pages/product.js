@@ -13,11 +13,11 @@ import SmartContracts from '../components/Product/SmartContracts';
 import CallToAction from '../components/Product/CallToAction';
 import Explorer from '../components/Product/Explorer';
 
-if (typeof window !== 'undefined') {
-  // Make scroll behavior of internal links smooth
-  // eslint-disable-next-line global-require
-  require('smooth-scroll')('a[href*="#"]');
-}
+// if (typeof window !== 'undefined') {
+//   // Make scroll behavior of internal links smooth
+//   // eslint-disable-next-line global-require
+//   require('smooth-scroll')('a[href*="#"]');
+// }
 const ProductPage = () => (
   <Layout>
     

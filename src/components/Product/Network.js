@@ -11,7 +11,7 @@ const Network = () => (
             <div className="container">
                 <div className="columns">
                     <Fade left>
-                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}}>
+                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}} id="network">
                         <h4 className="has-text-white has-text-weight-light title">
                         P2P Network
                         </h4>
@@ -19,7 +19,7 @@ const Network = () => (
                     </div>
                     </Fade>
                     <Fade right>
-                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}}>
+                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}} id="distributed">
                         <h4 className="has-text-white has-text-weight-light title">
                         Distributed File System
                         </h4>

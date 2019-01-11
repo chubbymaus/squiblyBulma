@@ -11,7 +11,7 @@ const SmartContracts = () => (
             <div className="container">
                 <div className="columns">
                     <Fade left>
-                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}}>
+                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}} id="contracts">
                         <h4 className="has-text-white has-text-weight-light title">
                         Smart Contracts
                         </h4>
@@ -19,7 +19,7 @@ const SmartContracts = () => (
                     </div>
                     </Fade>
                     <Fade right>
-                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}}>
+                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}} id="apps">
                         <h4 className="has-text-white has-text-weight-light title">
                         3rd Party Applications
                         </h4>
