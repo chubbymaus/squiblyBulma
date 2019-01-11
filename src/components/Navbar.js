@@ -64,12 +64,15 @@ class Navbar extends Component {
                             </div>
                         </div>
                         <div className = {
-                          this.state.menuOpen ? `${this.state.mobile} is-active` : 'navbar-menu'
+                          this.state.menuOpen ? `${this.state.mobile}  has-text-white is-active` : 'navbar-menu'
                         }
                         id="navMenu">
                             
                             <div className="navbar-end is-primary">
-                                <Link to="/investors" className="navbar-item">
+                                <Link to="/product" className="navbar-item has-text-white">
+                                    Product
+                                </Link>
+                                <Link to="/investors" className="navbar-item has-text-white">
                                     Investors
                                 </Link>
 

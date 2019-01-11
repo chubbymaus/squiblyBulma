@@ -22,23 +22,23 @@ const Action = () => (
                     <div className="column is-half">
                         <div className="columns has-text-white ">
                           <div className="column is-half">
-                            <a href="#interface"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'analytics']} /> &nbsp;Simple User Interface
+                            <a href="#interface"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'laptop']} /> &nbsp;Simple User Interface
                             </div></a>
-                            <a href="#cryptography"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'analytics']} /> &nbsp;Cryptography
+                            <a href="#cryptography"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'lock-alt']} /> &nbsp;Cryptography
                             </div></a>
-                            <a href="#network"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'analytics']} /> &nbsp;P2P Network
+                            <a href="#network"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'users']} /> &nbsp;P2P Network
                             </div></a>
-                            <a href="#signatures"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'analytics']} /> &nbsp;Digital Signatures
+                            <a href="#signatures"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'signature']} /> &nbsp;Digital Signatures
                             </div></a>
                           </div>
                           <div className="column is-half">
-                            <a href="#distributed"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'analytics']} /> &nbsp;Distributed File System
+                            <a href="#distributed"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'chart-network']} /> &nbsp;Distributed File System
                             </div></a>
-                            <a href="#explorer"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'analytics']} /> &nbsp;Squibly Explorer
+                            <a href="#explorer"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'th-list']} /> &nbsp;Squibly Explorer
                             </div></a>
-                            <a href="#contracts"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'analytics']} /> &nbsp;Smart Contracts
+                            <a href="#contracts"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'handshake']} /> &nbsp;Smart Contracts
                             </div></a>
-                            <a href="#apps"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'analytics']} /> &nbsp;3rd Party Applications
+                            <a href="#apps"><div className="about-icons has-text-white"><FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'plug']} /> &nbsp;3rd Party Applications
                             </div></a>
                           </div>
                         </div>
