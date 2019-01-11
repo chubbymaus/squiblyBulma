@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import HeroImage from '../../images/computers.png';
+import HeroImage from '../../images/collaboration.png';
 
 const Button = styled.a.attrs({
     className: 'button',
@@ -41,7 +41,7 @@ const Jumbotron = () => (
                             for Every Employee
                         </h2>
                         <ButtonGroup>
-                        <Button className="is-info shadowed is-medium" href="#about">Learn More</Button>
+                        <Button className="is-info shadowed is-medium" href="#about-product">Learn More</Button>
                         
                         </ButtonGroup>
                     </div>

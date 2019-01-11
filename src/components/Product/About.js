@@ -8,7 +8,7 @@ import {
 const Action = () => (
     <div>
         
-        <div className="product-wrapper has-background-primary">
+        <div className="product-wrapper has-background-primary" id="about-product">
             <div className="container is-fluid">
                 <div className="columns">
                     <Fade left>
@@ -19,8 +19,9 @@ const Action = () => (
                     </div>
                     </Fade>
                     <Fade right>
-                    <div className="column is-half">
-                        <div className="columns has-text-white about-icon-wrapper">
+                    <div className="column is-half has-text-white about-icon-wrapper">
+                            <h1 className="title has-text-white">Squibly provides your team with...</h1>
+                        <div className="columns ">
                           <div className="column is-half">
                             <a href="#interface"><div className="about-icons has-text-white"><FontAwesomeIcon className="has-text-info"style={{fontSize: '1.75rem'}} icon={['far', 'laptop']} /> &nbsp;Simple User Interface
                             </div></a>
