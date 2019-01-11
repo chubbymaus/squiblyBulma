@@ -41,6 +41,9 @@ html {
       width: 100%;
   }
 };
+.about-icon-wrapper{
+padding-left:  50px;
+}
 .about-icons{
   padding: 15px 0;
 }
@@ -83,6 +86,46 @@ html {
   @media only screen and (max-width: 797px){
     padding-left: 25px;
     padding-right: 25px;
+  }
+};
+.product-wrapper{
+  padding-top: 4rem;
+  padding-bottom: 2.5rem;
+  background-image: url("../images/collabimg.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 50% auto;
+    .card {
+    box-shadow: none;
+  }
+    hr{
+        
+        height: 5px;
+        color: #2a3443;
+        background: #2a3443;
+        border: none;
+        max-width: 75px;
+        margin:0;
+        margin-bottom: 15px;
+    }
+
+    .title{
+        
+        margin-bottom: 10px;
+    }
+    .card-content{
+        padding-left: 0px;
+    }
+
+  @media only screen and (max-width: 1087px){
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  @media only screen and (max-width: 797px){
+    padding-left: 25px;
+    padding-right: 25px;
+    background-position: center;
+    background-size: cover;
   }
 };
 

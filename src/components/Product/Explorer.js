@@ -13,7 +13,7 @@ const Explorer = () => (
                     <Fade left>
                     <div className="column is-flex" style={{flexDirection: "column", justifyContent:"center"}}>
                         <h4 className="has-text-white has-text-weight-light title">
-                        Squibly Explorer
+                        <FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'th-list']} /> <strong style={{fontSize: '2.5rem'}}>|</strong> Squibly Explorer
                         </h4>
                         <p className="has-text-white">Have you ever wondered what it would be like to have total transparency within your organization? With the Squibly Explorer you will have just that. We have created a private ledger to track transactions within your organization and have created a legal audit trail if a leak ever occurs. This way, you know where all of your data is, and who is sharing it.</p>
                     </div>
