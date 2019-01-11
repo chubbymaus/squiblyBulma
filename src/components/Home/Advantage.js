@@ -106,7 +106,7 @@ const Advantage = () => (
                                     &nbsp; 
                                    Human Resources
                                 </div>
-                                                        <a href="#jumbotron"><div className="is-info jumbotron-button button shadowed is-medium"> Learn More</div></a>
+
                                 <hr/>
                                 <div className="content">
                                     <p>Know who is talking and what they are talking about. Know what is going on in your business always. Always know what is going on in your business. Use the Squibly Explorer to understand where all your assets are located.</p>
