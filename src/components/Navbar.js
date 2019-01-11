@@ -24,7 +24,7 @@ class Navbar extends Component {
           const isTop = window.scrollY < 75;
           if (isTop !== this.state.isTop) {
             this.setState({
-              navColor: 'navbar is-white shadowed is-fixed-top',
+              navColor: 'navbar is-white shadowed',
               logo: Icon,
               mobile: 'navbar-menu has-background-white has-text-primary',
               mobileToggle: 'navbar-burger has-text-primary'
