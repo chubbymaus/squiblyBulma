@@ -9,7 +9,7 @@ const Action = () => (
     <div>
         
         <div className="product-wrapper has-background-primary" id="about-product">
-            <div className="container is-fluid">
+            <div className="container">
                 <div className="columns">
                     <Fade left>
                     <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}}>
