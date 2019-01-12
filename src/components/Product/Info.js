@@ -8,7 +8,7 @@ import HeroImage from '../../images/interfacesquibly.png';
 
 const Info = () => (
 
-    <section className="hero has-background-primary is-fullheight is-bold" id="about-section">
+    <section className="hero has-background-primary is-medium is-bold" id="about-section">
         <div className="hero-body">
             <div className="container has-text-left" id="interface">
                 <div className="columns">
