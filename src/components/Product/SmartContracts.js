@@ -11,7 +11,7 @@ const SmartContracts = () => (
             <div className="container">
                 <div className="columns">
                     <Fade left>
-                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}} id="contracts">
+                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"flex-start"}} id="contracts">
                         <h4 className="has-text-white has-text-weight-light title">
                         Smart Contracts  <strong style={{fontSize: '2.5rem'}}>|</strong> &nbsp;<FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'handshake']} /> 
                         </h4>
@@ -19,7 +19,7 @@ const SmartContracts = () => (
                     </div>
                     </Fade>
                     <Fade right>
-                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}} id="apps">
+                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"flex-start"}} id="apps">
                         <h4 className="has-text-white has-text-weight-light title">
                         <FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'plug']} /> <strong style={{fontSize: '2.5rem'}}>|</strong> 3rd Party Applications
                         </h4>

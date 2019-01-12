@@ -7,7 +7,7 @@ import {
 
 const Crypto = () => (
     <div>
-        <div className="has-background-info product-section">
+        <div className="has-background-info product-section crypto-wrapper">
             <div className="container">
                 <div className="columns">
                     <Fade left>

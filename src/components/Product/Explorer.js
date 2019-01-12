@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Fade from 'react-reveal/Fade';
+import ExplorerImage from '../../images/explorer.png';
 import {
   FontAwesomeIcon
 } from '@fortawesome/react-fontawesome'
@@ -10,8 +11,13 @@ const Explorer = () => (
         <div className="has-background-success product-section">
             <div className="container" id="explorer">
                 <div className="columns">
-                    <Fade left>
-                    <div className="column is-flex" style={{flexDirection: "column", justifyContent:"center"}}>
+                <Fade left>
+                    <div className="column is-half has-text-right" id="hero-image">
+                        <img src={ExplorerImage} alt="Hero" />
+                    </div>
+                    </Fade>
+                    <Fade right>
+                    <div className="column is-half is-flex" style={{flexDirection: "column", justifyContent:"center"}}>
                         <h4 className="has-text-white has-text-weight-light title">
                         <FontAwesomeIcon style={{fontSize: '2rem'}} icon={['far', 'th-list']} /> <strong style={{fontSize: '2.5rem'}}>|</strong> Squibly Explorer
                         </h4>
