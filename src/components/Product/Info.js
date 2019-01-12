@@ -1,6 +1,6 @@
 import React from 'react'
 // import styled from 'styled-components';
-import HeroImage from '../../images/iphones.png';
+import HeroImage from '../../images/interfacesquibly.png';
 
 
 
