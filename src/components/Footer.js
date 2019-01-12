@@ -29,19 +29,19 @@ const Footer = () => (
           <div className="column is-half">
             <h3 style={{fontSize: '2rem'}}>
             
-            <span>&nbsp;&nbsp;
+            {/* <span>&nbsp;&nbsp;
               <a href="https://www.behance.net/court090c">
               <FontAwesomeIcon icon={['fab', 'youtube']} />
               </a>
-            </span>
+            </span> */}
             
-            <span>&nbsp;&nbsp;
+            {/* <span>&nbsp;&nbsp;
               <a href="https://angel.co/court-garr?public_profile=1">
               <FontAwesomeIcon icon={['fab', 'angellist']} />
               </a>
-            </span>
+            </span> */}
             <span>&nbsp;&nbsp;
-             <a href="https://www.linkedin.com/in/court-garr/">
+             <a href="https://www.linkedin.com/company/squibly/">
               <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
               </a>
             </span>
