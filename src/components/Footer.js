@@ -41,6 +41,11 @@ const Footer = () => (
               </a>
             </span> */}
             <span>&nbsp;&nbsp;
+             <a href="https://twitter.com/SquiblyHQ">
+              <FontAwesomeIcon icon={['fab', 'twitter']} />
+              </a>
+            </span>
+            <span>&nbsp;&nbsp;
              <a href="https://www.linkedin.com/company/squibly/">
               <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
               </a>
