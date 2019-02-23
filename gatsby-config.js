@@ -12,7 +12,15 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
+    'gatsby-transformer-remark',
     'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: 'gpj3q193knob',
+        accessToken: 'a2fc13d84ff70d2ef902005ee5589d4ff265c3178fb9096c3d8222ebce8001a1'
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
